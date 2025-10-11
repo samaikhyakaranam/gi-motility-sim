@@ -1,0 +1,24 @@
+{
+  "time": { "t_end": 720.0, "dt": 0.5 },
+  "compartments": [
+    {
+      "name": "SmallIntestine",
+      "V0": 600.0,
+      "W0": 0.95,
+      "motility": 1.0,
+      "absorption_rate": 0.02,
+      "resistance_out": 1.0
+    },
+    {
+      "name": "Colon",
+      "V0": 100.0,
+      "W0": 0.85,
+      "motility": 0.6,
+      "absorption_rate": 0.01,
+      "resistance_out": 1.0
+    }
+  ],
+  "flow": { "k_flow": 0.015 },
+  "pressure": { "kP": 0.01, "V_ref": 400.0 },
+  "damage": { "threshold": 2.0, "rate": 0.001 }
+}

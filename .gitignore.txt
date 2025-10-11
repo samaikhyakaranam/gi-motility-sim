@@ -1,0 +1,5 @@
+# virtual environment + python cache
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
