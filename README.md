@@ -1,6 +1,5 @@
-\# GI Motility & Fluid Absorption Simulator (Educational).
-Two-compartment ODE simulator (small intestine & colon) using
-Streamlit\'s UI.
+Educational gastrointestinal motility and fluid absorption simulator
+Two-compartment ODE simulator using Streamlit\'s UI testing two main regions: the small intestine and colon
 
 \`\`\`bash python -m venv .venv source .venv/bin/activate \# Windows:
 .venv\\Scripts\\activate pip install -r requirements.txt streamlit run
